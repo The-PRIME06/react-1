@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-img {
+    width: 150px;
+    height: 60px;
+    object-fit: cover;
+
+}
+a , li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+} 
+nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.big-ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.tajr {
+    display: flex;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    align-items: center;
+    margin: 30px;
+
+}
+.hero-img {
+    border: 20px;
+
+}
+.hero-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
